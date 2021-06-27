@@ -1,0 +1,33 @@
+.search-box{
+    height: 40px;
+    width: 500px;
+    border-radius: 15px;
+    padding: 5px;
+    font-size: 20px;
+}
+.search-box:focus{
+    outline: none;
+}
+.search-data-container>div{
+    padding: 5px;
+    border-bottom: 1px dashed black;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.search-data-container{
+    width: 530px;
+    height: 500px;
+    overflow-y: auto;
+}
+
+.description-text{
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 64ch;
+}
