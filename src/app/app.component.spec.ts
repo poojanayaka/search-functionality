@@ -2,7 +2,7 @@ import { TestBed, async, fakeAsync, tick, ComponentFixture } from '@angular/core
 import { AppComponent } from './app.component';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { HttpClientTestingModule, HttpTestingController } from '@angular/common/http/testing';
-import { SearchService } from './search.service';
+import { SearchService } from './service/search.service';
 import { ReactiveFormsModule } from '@angular/forms';
 import { By } from '@angular/platform-browser';
 

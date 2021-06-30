@@ -1,12 +1,1 @@
-<div class="wrapper">
-<div class="search">
-  <input #searchBox id="search-box" (input)="searchText(searchBox.value)" class="search-box" placeholder="Search here..." />
-</div>
-<div class="search-data-container">
-  <div *ngFor="let data of searchData$|async|slice:0:20">
-  <p> <b>Name: </b> <span>{{data.name}}</span></p>
-<p> <b>Email: </b><span>{{data.email}}</span></p>
-<p><b>Description: </b><span class="description-text">{{data.body}}</span></p>
-  </div>
-</div>
-</div>
+<router-outlet></router-outlet>
